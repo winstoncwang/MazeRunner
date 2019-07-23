@@ -6,6 +6,21 @@ The aim of the project is to design a personal portfolio page for display purpos
 ----------------------------------------------------------------
 Version 0.1.1
 
-Setup files containing HTML CSS README.md and userstorys
+    Setup files containing HTML CSS README.md and userstorys
 
 ----------------------------------------------------------------
+Version 0.1.2
+
+    First page basic design, navbar, buttons and text edit.
+
+---------------------------------------------------------------
+Version 0.1.3
+
+    Added titles for the initial page
+
+---------------------------------------------------------------
+Version 0.1.4
+
+    Added contact, testimonials, navbar effects and other icon links
+
+---------------------------------------------------------------
