@@ -32,6 +32,7 @@ a{
     padding:25px 40px;
     margin:15px;
     border-radius:15px;
+    white-space: nowrap;
 }
 #About-Me{
     background-color:#222831;
