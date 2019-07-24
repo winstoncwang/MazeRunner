@@ -49,7 +49,7 @@ section{
     border-bottom:3px solid #0092ca;
 }
 #welcome-section{
-    background-color:#222831;
+    background-color:Black;
     height:100vh;
     width:100%;
     display:flex;
@@ -82,7 +82,20 @@ section{
     height:100vh;
     background-color:white;  
 }
+#projects header h1{
+    margin:0px;
+    box-sizing: border-box;
+    height:10vh;
+    width:auto;
+    color:#0092ca;
+}
 .tab1-panel{
     background-color:grey;
+    height:calc(100vh - 10vh); /*need to calculate regarding to project section header h1*/
+    width:90%;
+    margin-left:5%;
+    display:grid;
+    grid-template-columns: 44% 44%;
+    grid-template-rows: 
     
 }
