@@ -24,3 +24,18 @@ Version 0.1.4
     Added contact, testimonials, navbar effects and other icon links
 
 ---------------------------------------------------------------
+Version 0.2.1
+
+    Say hello a link updated with transition effect.
+
+-------------------------------------------------------------------
+Version 0.2.2
+
+    Adding project grid template and background color of the container.
+
+---------------------------------------------------------------------
+Version 0.2.3
+
+    Updated template, Using viewpoint as dimensions. Userstory updated
+
+--------------------------------------------------------------------
