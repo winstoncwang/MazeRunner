@@ -39,3 +39,8 @@ Version 0.2.3
     Updated template, Using viewpoint as dimensions. Userstory updated
 
 --------------------------------------------------------------------
+Version 0.2.4
+
+    Update grid arrangement for the project section, added testimonial section with sophia's feedbacks.
+
+-------------------------------------------------------------------
