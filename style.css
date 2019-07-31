@@ -52,6 +52,7 @@ a{
     background-color:#393e46;
     border-bottom:3px solid #0092ca;
 }
+/*----------------------WELCOME SECTION---------------------------*/
 #welcome-section{
     background-color:Black;
     height:100vh;
@@ -109,4 +110,26 @@ a{
 .project-image{
     height:auto;
     max-width: 100%;
+}
+/*----------------------FOOTER-------------------------*/
+
+footer{
+    background-color:#0092ca;
+    margin:0px;
+    padding:0px;
+}
+.icon-container{
+    width:80%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding:10px;
+}
+.copyright-container p{
+    text-align: center;
+    background-color:#0092ca;
+    margin:0px;
+    padding:20px 0px;
+    font-weight:600;
 }
