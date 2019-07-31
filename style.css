@@ -111,6 +111,20 @@ a{
     height:auto;
     max-width: 100%;
 }
+/*----------------------CONTACT ME-------------------------*/
+
+/*----------------------TESTIMONIALS-------------------------*/
+.article{
+    background-color:white;
+    width:80%;
+    text-align:right;
+    margin:0 auto;
+    border-radius:15px;
+    padding:20px;
+}
+.article p{
+    text-align:center;
+}
 /*----------------------FOOTER-------------------------*/
 
 footer{

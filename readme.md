@@ -44,3 +44,8 @@ Version 0.2.4
     Update grid arrangement for the project section, added testimonial section with sophia's feedbacks.
 
 -------------------------------------------------------------------
+Version 0.2.5
+
+    Update testimonial section, background color arrangement for each section, footer content
+
+------------------------------------------------------------
