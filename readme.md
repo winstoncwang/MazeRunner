@@ -49,3 +49,8 @@ Version 0.2.5
     Update testimonial section, background color arrangement for each section, footer content
 
 ------------------------------------------------------------
+Version 0.2.6
+
+    Updated picture files and webpage
+    
+---------------------------------------------------------
