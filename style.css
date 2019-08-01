@@ -95,7 +95,7 @@ a{
     color:#0092ca;
 }
 .tab1-panel{
-    background-color:grey;
+    background-color:white;
     height:auto; /*need to calculate regarding to project section header h1*/
     width:95%;
     margin:0 auto;
@@ -104,8 +104,11 @@ a{
     grid-gap:30px;
     
 }
-.project-link{
+.project-tile{
     position: relative;
+    background-color:#eaeaea;
+    padding:5px;
+    border-radius:10px;
 }
 .project-image{
     height:auto;
