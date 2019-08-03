@@ -86,13 +86,26 @@ a{
     width:100%;
     height:auto;
     background-color:white;
+    margin-bottom:60px;
 }
-#projects header h1{
-    margin:0px;
+.section-header h1{
+    margin:0px 0px 60px 0px;
+    padding:20px;
+    font-size:40px;
     box-sizing: border-box;
     height:10vh;
     width:auto;
     color:#0092ca;
+    text-align:center;
+    position:relative;
+}
+.section-header h1:after{
+    content:"";
+    width:40%;
+    border-bottom: 3px solid #0092ca;
+    position:absolute;
+    top:110%;
+    left:30%;
 }
 .tab1-panel{
     background-color:white;
@@ -113,9 +126,19 @@ a{
 .project-image{
     height:auto;
     max-width: 100%;
+    border-radius:8px;
 }
 /*----------------------CONTACT ME-------------------------*/
-
+#contact-me{
+    background-color:black;
+}
+#contact-me h1{
+    color:
+}
+#contact-me h1:after{
+    width:15%;
+    left:42%;
+}
 /*----------------------TESTIMONIALS-------------------------*/
 .article{
     background-color:white;
