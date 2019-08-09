@@ -115,19 +115,20 @@ a{
     display:grid;
     grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
     grid-gap:30px;
-    
 }
 .project-tile{
-    position: relative;
-    background-color:#eaeaea;
-    padding:5px;
+    background-color:black;
+    height:inherit;
     border-radius:10px;
 }
+
 .project-image{
     height:auto;
-    max-width: 100%;
+    width:auto;
+    max-width:100%;
     border-radius:8px;
 }
+
 /*----------------------CONTACT ME-------------------------*/
 #contact-me{
     background-color:black;
