@@ -177,9 +177,34 @@ footer{
     justify-content:center;
     align-items:center;
     padding:5px;
+    border-radius:19px;
+}
+.icon-container a:hover{
+    position:relative;
+    animation-name: icon-move;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-duration:0.8s;
+}
+@keyframes icon-move{
+    0%{
+        position:relative;
+        top:0px;
+    }
+    50%{
+        position:relative;
+        top:-8px;
+    }
+    100%{
+        position:relative;
+        top:0px;
+    }
+    
 }
 .icon-container span{
     padding:10px;
+    white-space: nowrap;
 }
 .copyright-container p{
     text-align: center;
