@@ -134,22 +134,48 @@ a{
     background-color:black;
 }
 #contact-me h1{
-    color:
+    color:#0092ca;
 }
 #contact-me h1:after{
     width:15%;
     left:42%;
 }
 /*----------------------TESTIMONIALS-------------------------*/
-.article{
+
+#article-container{
     background-color:white;
     width:80%;
-    text-align:right;
     margin:0 auto;
-    border-radius:15px;
-    padding:20px;
+    position:relative;
 }
-.article p{
+article{
+    width:100%;
+    position:absolute;
+    background-color:transparent;
+    
+}
+article:before{
+    content:"";
+    background-color:#0092ca;
+    width:10px;
+    height:100%;
+}
+article p{
+    background-color:transparent;
+    width:auto;
+    margin:0 auto;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+    padding:20px;
+    
+}
+
+article p:hover{
+    position:relative;
+    left:10px;
+    
+}
+article p{
     text-align:center;
 }
 /*----------------------FOOTER-------------------------*/
