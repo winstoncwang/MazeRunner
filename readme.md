@@ -54,3 +54,39 @@ Version 0.2.6
     Updated picture files and webpage
     
 ---------------------------------------------------------
+Version 0.2.6.1
+
+    Minor update to the project section with borders
+---------------------------------------------------------
+Version 0.2.7
+
+    updated section header, background color and separator
+----------------------------------------------------------
+Version 0.2.8
+
+    Inserted footer icon, icon file and hyperlinks accordingly.
+----------------------------------------------------------
+Version 0.2.8.1
+
+    Updated phone icon and index page.
+-----------------------------------------------------------
+ Version 0.2.8.2
+
+    Icon sizing and correct padding, changed href link for each icon.
+-----------------------------------------------------------
+Version 0.2.8.3
+
+    Added icon animation using keyframes (icon-move) for a link hover effect
+----------------------------------------------------------
+Version 0.2.9.0
+
+    Starting rollover effect. clean state
+----------------------------------------------------------
+Version 2.9.1
+
+    Testimonial tab effect continuing
+----------------------------------------------------------
+Version 0.2.9.2
+
+    Updated slider effect on the testimonial text box
+----------------------------------------------------------
