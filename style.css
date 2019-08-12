@@ -143,38 +143,64 @@ a{
 /*----------------------TESTIMONIALS-------------------------*/
 
 #article-container{
-    background-color:white;
     width:80%;
     margin:0 auto;
-    position:relative;
 }
 article{
     width:100%;
-    position:absolute;
-    background-color:transparent;
+    position:relative;
+    
     
 }
 article:before{
+    position:absolute;
     content:"";
     background-color:#0092ca;
-    width:10px;
+    width:19px;
     height:100%;
+    top:0px;
+    left:0px;
+    opacity:0;
+    transition:opacity 0.1s ease;
+    z-index:0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+article:hover:before{
+    display:block;
+    opacity:1;
 }
 article p{
-    background-color:transparent;
+    background-color:white;
     width:auto;
     margin:0 auto;
     border-top-right-radius:15px;
     border-bottom-right-radius:15px;
     padding:20px;
+    z-index:1;
     
 }
 
 article p:hover{
     position:relative;
-    left:10px;
-    
+    animation-name: paragraph-mover;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
 }
+@keyframes paragraph-mover{
+    0%{
+        left:0px;
+    }
+    50%{
+        left:18px;
+    }
+    100%{
+        left:13px;
+    }
+}
+
 article p{
     text-align:center;
 }
