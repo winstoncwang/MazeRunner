@@ -84,9 +84,8 @@ a{
 }
 #projects{
     width:100%;
-    height:auto;
-    background-color:white;
-    margin-bottom:60px;
+    height:calc(100vh);
+    background-color:#eeeeee;
 }
 .section-header h1{
     margin:0px 0px 60px 0px;
@@ -108,8 +107,8 @@ a{
     left:30%;
 }
 .tab1-panel{
-    background-color:white;
-    height:auto; /*need to calculate regarding to project section header h1*/
+    background-color:#eeeeee;
+    height:70vh; /*need to calculate regarding to project section header h1*/
     width:95%;
     margin:0 auto;
     display:grid;
@@ -118,20 +117,34 @@ a{
 }
 .project-tile{
     background-color:black;
+    height:100%;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    border-radius:0px;
+    position:relative;
+}
+.project-link{
     height:inherit;
-    border-radius:10px;
+    width:inherit;
+    margin:0px;
+    padding:0px;
+}
+.project-image{
+    height:100%;
+    width:100%;
+    border-radius:0px;
+    padding:0px;
+    margin:0px;
 }
 
-.project-image{
-    height:auto;
-    width:auto;
-    max-width:100%;
-    border-radius:8px;
-}
 
 /*----------------------CONTACT ME-------------------------*/
 #contact-me{
     background-color:black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #contact-me h1{
     color:#0092ca;
@@ -140,11 +153,18 @@ a{
     width:15%;
     left:42%;
 }
+#msg-container{
+    height:auto;
+    width:60%;
+    margin:0 auto;
+    text-align:center;
+    
+}
 /*----------------------TESTIMONIALS-------------------------*/
 
 #article-container{
     width:80%;
-    margin:0 auto;
+    margin:40px auto;
 }
 article{
     width:100%;
