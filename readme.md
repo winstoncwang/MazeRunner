@@ -90,3 +90,7 @@ Version 0.2.9.2
 
     Updated slider effect on the testimonial text box
 ----------------------------------------------------------
+Version 0.3.1
+
+    Changed overall layout, project effect removed, added collaboration and contact me section
+----------------------------------------------------------
