@@ -124,11 +124,20 @@ a{
     border-radius:0px;
     position:relative;
 }
-.project-link{
-    height:inherit;
-    width:inherit;
-    margin:0px;
-    padding:0px;
+.img-caption{
+    position:absolute;
+    background-color:#393e46;
+    color:#0092ca;
+    opacity:0;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    transition:display 1s ease, opacity 1s ease;
+}
+.img-caption:hover{
+    display:block;
+    opacity:0.98;
 }
 .project-image{
     height:100%;
