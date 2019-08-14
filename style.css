@@ -84,7 +84,7 @@ a{
 }
 #projects{
     width:100%;
-    height:calc(100vh);
+    height:100vh;
     background-color:#eeeeee;
 }
 .section-header h1{
@@ -108,7 +108,7 @@ a{
 }
 .tab1-panel{
     background-color:#eeeeee;
-    height:70vh; /*need to calculate regarding to project section header h1*/
+    height:100vh; /*need to calculate regarding to project section header h1*/
     width:95%;
     margin:0 auto;
     display:grid;
@@ -121,7 +121,7 @@ a{
     width:100%;
     margin:0px;
     padding:0px;
-    border-radius:0px;
+    border-radius:8px;
     position:relative;
 }
 .img-caption{
@@ -133,16 +133,41 @@ a{
     width:100%;
     top:0;
     left:0;
-    transition:display 1s ease, opacity 1s ease;
+    border-radius:8px;
+    transition:opacity 1s ease;
 }
 .img-caption:hover{
     display:block;
     opacity:0.98;
 }
+.project-header{
+    margin-top:15%;
+}
+.project-span{
+    display:block;
+    margin-top:4%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10%;
+}
+.project-link{
+    color:#eeeeee;
+    font-size:16px;
+    font-weight:600;
+    background-color:#0092ca;
+    width:150px;
+    padding:10px;
+    margin:0 auto;
+    border-radius:10px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
 .project-image{
     height:100%;
     width:100%;
-    border-radius:0px;
+    border-radius:8px;
     padding:0px;
     margin:0px;
 }
