@@ -84,7 +84,7 @@ a{
 }
 #projects{
     width:100%;
-    height:100vh;
+    height:auto;
     background-color:#eeeeee;
 }
 .section-header h1{
@@ -108,9 +108,10 @@ a{
 }
 .tab1-panel{
     background-color:#eeeeee;
-    height:100vh; /*need to calculate regarding to project section header h1*/
+    height:auto; /*need to calculate regarding to project section header h1*/
     width:95%;
     margin:0 auto;
+    padding-bottom:60px;
     display:grid;
     grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
     grid-gap:30px;
@@ -163,6 +164,10 @@ a{
     flex-direction:row;
     align-items: center;
     justify-content: space-between;
+}
+#arrow-icon{
+    height:2.5vh;
+    width:2.5vw;
 }
 .project-image{
     height:100%;
