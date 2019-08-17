@@ -94,3 +94,15 @@ Version 0.3.1
 
     Changed overall layout, project effect removed, added collaboration and contact me section
 ----------------------------------------------------------
+Version 0.3.2
+
+    Added project roll over effect with a link for each project
+----------------------------------------------------------
+Version 0.3.3
+
+    Update project tile caption, header, span, a-link and glasses icon
+----------------------------------------------------------
+Version 0.3.4
+
+    Update icon, padding for the a-link used in project section, fixed height problem that overlapped with the contact section.
+----------------------------------------------------------
