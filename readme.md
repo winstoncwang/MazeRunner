@@ -106,3 +106,13 @@ Version 0.3.4
 
     Update icon, padding for the a-link used in project section, fixed height problem that overlapped with the contact section.
 ----------------------------------------------------------
+Version 0.3.5
+
+    Remove icon img and used after psedo code with animation effect for the bouncing arrow.
+----------------------------------------------------------
+Version 0.3.6
+
+    Add quote icon, fixed header display overlay with h1 header.
+----------------------------------------------------------
+
+
