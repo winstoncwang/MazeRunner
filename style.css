@@ -85,7 +85,7 @@ a{
 #projects{
     width:100%;
     height:auto;
-    background-color:#eeeeee;
+    background-color:;
 }
 .section-header h1{
     margin:0px 0px 60px 0px;
@@ -229,8 +229,6 @@ a{
 article{
     width:100%;
     position:relative;
-    
-    
 }
 article:before{
     position:absolute;
@@ -258,9 +256,8 @@ article p{
     border-bottom-right-radius:15px;
     padding:20px;
     z-index:1;
-    
+    text-align:center;
 }
-
 article p:hover{
     position:relative;
     animation-name: paragraph-mover;
@@ -270,20 +267,23 @@ article p:hover{
     animation-duration: 1s;
 }
 @keyframes paragraph-mover{
-    0%{
-        left:0px;
-    }
-    50%{
-        left:18px;
-    }
-    100%{
-        left:13px;
-    }
+    0%{left:0px;}
+    50%{left:18px;}
+    100%{left:13px;}
+}
+#quote-open{
+    position:relative;
+    left:-10px;
+    height:20px;
+    width:20px;
+}
+#quote-close{
+    position:relative;
+    left:10px;;
+    height:20px;
+    width:20px;
 }
 
-article p{
-    text-align:center;
-}
 /*----------------------FOOTER-------------------------*/
 
 footer{
