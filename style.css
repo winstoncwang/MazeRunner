@@ -152,12 +152,13 @@ a{
     margin-bottom:10%;
 }
 .project-link{
+    position:relative;
     color:#eeeeee;
     font-size:16px;
     font-weight:600;
     background-color:#0092ca;
-    width:150px;
-    padding:10px;
+    width:145px;
+    padding:10px 10px 10px 18px;
     margin:0 auto;
     border-radius:10px;
     display:flex;
@@ -165,9 +166,30 @@ a{
     align-items: center;
     justify-content: space-between;
 }
-#arrow-icon{
-    height:2.5vh;
-    width:2.5vw;
+.project-link:after{
+    position:absolute;
+    content:"";
+    background-image: url(icon/arrow-icon.png);
+    background-size:22px 22px;
+    height:22px;
+    width:22px;
+    left:125px;
+}
+.project-link:hover:after{
+    animation-name: arrow-animation;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+}
+
+@keyframes arrow-animation{
+    0%{left:124px;}
+    20%{left:135px;}
+    40%{left:131px;}
+    60%{left:135px;}
+    80%{left:134px;}
+    100%{left:135px;}
 }
 .project-image{
     height:100%;
@@ -194,10 +216,9 @@ a{
 }
 #msg-container{
     height:auto;
-    width:60%;
+    width:70%;
     margin:0 auto;
     text-align:center;
-    
 }
 /*----------------------TESTIMONIALS-------------------------*/
 
