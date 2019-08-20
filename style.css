@@ -12,7 +12,7 @@ a{
 }
 #navbar{
     background-color:#0092ca;
-    height:60px;
+    height:61px;
     padding:0px;
     margin:0px;
     width:100%;
@@ -87,6 +87,9 @@ a{
     height:auto;
     background-color:;
 }
+.section-header{
+    height:auto;
+}
 .section-header h1{
     margin:0px 0px 60px 0px;
     padding:20px;
@@ -99,12 +102,13 @@ a{
     position:relative;
 }
 .section-header h1:after{
-    content:"";
-    width:40%;
-    border-bottom: 3px solid #0092ca;
     position:absolute;
-    top:110%;
-    left:30%;
+    left:35%;
+    content:"";
+    width:30%;
+    height:50px;
+    border-bottom: 3px solid #0092ca;
+    
 }
 .tab1-panel{
     background-color:#eeeeee;
