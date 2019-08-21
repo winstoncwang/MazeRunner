@@ -114,5 +114,12 @@ Version 0.3.6
 
     Add quote icon, fixed header display overlay with h1 header.
 ----------------------------------------------------------
+Version 0.3.7.1
 
+    Updated nav bar's height for better display
+----------------------------------------------------------
+Version 0.3.7.2
+
+    Added buttons for contact-me section
+----------------------------------------------------------
 
