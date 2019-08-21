@@ -122,4 +122,8 @@ Version 0.3.7.2
 
     Added buttons for contact-me section
 ----------------------------------------------------------
+Version 0.3.7.3
+
+    screen width 960px below layout design structure.
+----------------------------------------------------------
 
