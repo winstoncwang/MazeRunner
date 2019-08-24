@@ -126,4 +126,7 @@ Version 0.3.7.3
 
     screen width 960px below layout design structure.
 ----------------------------------------------------------
+Version 0.3.7.4
 
+    Screen width of 980px below navbar design changed.
+----------------------------------------------------------
