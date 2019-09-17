@@ -404,7 +404,7 @@ footer{
 @media  only screen and (max-width:980px){
     #navbar{
         background-color:#0092ca;
-        height:50px;
+        height:calc(50px - 1vw);
         padding:0px;
         margin:0px;
         width:100%;
@@ -428,15 +428,25 @@ footer{
         margin-left:40%;
         padding:0px;
     }
+    #navbar li{
+        height:inherit;
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+    }
     #navbar a{
         text-decoration:none;
         color:black;
         font-size:2vw;
-        font-weight: 1000;
+        font-weight:1000;
         background-color:#0092ca;
         height:inherit;
         box-sizing:border-box;
-        padding:2.6vw;
+        padding:10px;
+        margin:0px 10px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
         /*padding:11px 1vw;*/
         white-space: nowrap;
         transition: color 0.6s ease-out, background-color  0.6s ease-out, border-bottom 0.6s ease-out;
