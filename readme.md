@@ -130,3 +130,6 @@ Version 0.3.7.4
 
     Screen width of 980px below navbar design changed.
 ----------------------------------------------------------
+Version 0.3.7.5
+    
+    Updated navbar with variable font size. Semi ready for submission.
