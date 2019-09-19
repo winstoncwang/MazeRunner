@@ -133,3 +133,7 @@ Version 0.3.7.4
 Version 0.3.7.5
     
     Updated navbar with variable font size. Semi ready for submission.
+------------------------------------------------------------
+Version 0.3.7.6
+    
+    Applied external stylesheets for different screen resolution such as regular phone, large phones and tablet displays.
