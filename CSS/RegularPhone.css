@@ -1,0 +1,57 @@
+----------------------/*FOR PHONES*/---------------------------------------------
+@media only screen and (max-width: 750px){
+    #navbar{
+        background-color:#0092ca;
+        height:auto;
+        padding:0px;
+        margin:0px;
+        width:100%;
+        position: fixed;
+        top:0;
+        left:0;
+        z-index:9999;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #navbar ul{
+        width:100%;
+        height:inherit;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        list-style-type:none;
+        margin:0px;
+        margin-left:40%;
+        padding:0px;
+    }
+    #navbar li{
+        height:inherit;
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    #navbar a{
+        text-decoration:none;
+        color:black;
+        font-size:2vw;
+        font-weight:1000;
+        background-color:#0092ca;
+        height:inherit;
+        box-sizing:border-box;
+        padding:10px;
+        margin:0px 10px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        /*padding:11px 1vw;*/
+        white-space: nowrap;
+        transition: color 0.6s ease-out, background-color  0.6s ease-out, border-bottom 0.6s ease-out;
+    }
+    #navbar a:hover{
+        color:#0092ca;
+        background-color:#393e46;
+        border-bottom:3px solid #0092ca;
+    }
+}

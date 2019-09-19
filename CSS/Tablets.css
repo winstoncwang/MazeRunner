@@ -1,0 +1,23 @@
+/*---------------------SCREEN Width 1050px--------------------*/
+@media only screen and (max-width: 1050px) and (min-width:980px){
+    #navbar{
+        height:58px;
+    }
+    #navbar a{
+        text-decoration:none;
+        color:black;
+        font-size:19px;
+        font-weight: 1000;
+        background-color:#0092ca;
+        padding:18px 25px;
+        margin:15px;
+        white-space: nowrap;
+        transition: color 0.6s ease-out, background-color  0.6s ease-out, border-bottom 0.6s ease-out;
+    }
+    #navbar a:hover{
+        color:#0092ca;
+        background-color:#393e46;
+        border-bottom:3px solid #0092ca;
+    }
+    
+}
