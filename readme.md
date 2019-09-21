@@ -137,3 +137,7 @@ Version 0.3.7.5
 Version 0.3.7.6
     
     Applied external stylesheets for different screen resolution such as regular phone, large phones and tablet displays.
+------------------------------------------------------------
+Version 0.3.7.7
+
+    Fixed bug with the location of the buffering arrow for the project section.
