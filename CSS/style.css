@@ -173,7 +173,7 @@ a{
 .project-link:after{
     position:absolute;
     content:"";
-    background-image: url(icon/arrow-icon.png);
+    background-image: url(../icon/arrow-icon.png);
     background-size:22px 22px;
     height:22px;
     width:22px;
